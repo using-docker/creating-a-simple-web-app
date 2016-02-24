@@ -5,7 +5,7 @@ default_name = 'Joe Bloggs'
 
 
 @app.route('/')
-def get_identicon():
+def mainpage():
 
     name = default_name
 
